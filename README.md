@@ -89,4 +89,4 @@ erDiagram
     tp_item }|--|{ rl_item : contem
     tp_pagamento ||--|| rl_pagamento_nota : defini
 
-```"# OS_manager" 
+``` 
