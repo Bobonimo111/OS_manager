@@ -1,0 +1,9 @@
+services:
+  apache:
+    image: php:8.0-apache
+    container_name: apache-gerador-os
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html/
+    restart: always
